@@ -12,6 +12,7 @@
 		391EAB941DDA708700725DEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 391EAB921DDA708700725DEE /* Main.storyboard */; };
 		391EAB961DDA708700725DEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 391EAB951DDA708700725DEE /* Assets.xcassets */; };
 		391EAB991DDA708700725DEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 391EAB971DDA708700725DEE /* LaunchScreen.storyboard */; };
+		391EABA11DDA7E4F00725DEE /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391EABA01DDA7E4F00725DEE /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		391EAB951DDA708700725DEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		391EAB981DDA708700725DEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		391EAB9A1DDA708700725DEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		391EABA01DDA7E4F00725DEE /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				391EAB8E1DDA708700725DEE /* AppDelegate.swift */,
 				391EAB901DDA708700725DEE /* ViewController.swift */,
+				391EABA01DDA7E4F00725DEE /* AboutViewController.swift */,
 				391EAB921DDA708700725DEE /* Main.storyboard */,
 				391EAB951DDA708700725DEE /* Assets.xcassets */,
 				391EAB971DDA708700725DEE /* LaunchScreen.storyboard */,
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					391EAB8A1DDA708700725DEE = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = KMDC63737Y;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				391EABA11DDA7E4F00725DEE /* AboutViewController.swift in Sources */,
 				391EAB911DDA708700725DEE /* ViewController.swift in Sources */,
 				391EAB8F1DDA708700725DEE /* AppDelegate.swift in Sources */,
 			);
@@ -258,11 +263,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KMDC63737Y;
 				INFOPLIST_FILE = bullseye/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ayylmao.bullseye;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -270,11 +278,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KMDC63737Y;
 				INFOPLIST_FILE = bullseye/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ayylmao.bullseye;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
